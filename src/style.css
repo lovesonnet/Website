@@ -38,7 +38,7 @@ nav .container ul{
     margin-left: 10px;
     
 }
-.container ul li a{
+nav .container ul li a{
     padding: 5px;
     color: white;
     letter-spacing: 1px;
@@ -47,7 +47,7 @@ nav .container ul{
     text-decoration: none;
     transition:.2s linear; 
 }
-.container ul li a:hover{
+nav .container ul li a:hover{
     border-bottom: 4px solid rgb(84, 146, 141);
 }
 /* banner */
@@ -163,14 +163,41 @@ button:hover{
 /* footer pie de pagina */
 footer{
     background: var(--negro);
-    height: 5vh;
+    /* height: 5vh; */
+}
+footer .container{
+    height: 30vh;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    padding-left: 20px;
 }
 footer h3{
     font-size: 16px;
     color:white;
     font-family: 'roboto mono',monospace;
+    padding-bottom: 15px;
+}
+.footer_row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+.footer_row .col{
+    text-align: center;
+    
+}
+.footer_row .col ul{
+    list-style: none;
+}
+
+.footer_row .col ul li{
+    padding: 5px;
+}
+.footer_row .col ul li a{
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'baloo 2',cursive;
+    cursor: pointer;
 }
