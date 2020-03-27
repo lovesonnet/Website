@@ -36,6 +36,7 @@ nav .container ul{
 }
 .container ul li{
     margin-left: 10px;
+    
 }
 .container ul li a{
     padding: 5px;
@@ -44,6 +45,10 @@ nav .container ul{
     font-family: 'Baloo Da 2', cursive;
     font-size: 18px;
     text-decoration: none;
+    transition:.2s linear; 
+}
+.container ul li a:hover{
+    border-bottom: 4px solid rgb(84, 146, 141);
 }
 /* banner */
 .banner{
