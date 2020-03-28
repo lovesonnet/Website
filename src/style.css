@@ -49,6 +49,7 @@ nav .container ul li a{
 }
 nav .container ul li a:hover{
     border-bottom: 4px solid rgb(84, 146, 141);
+    opacity: .8;
 }
 /* banner */
 .banner{
