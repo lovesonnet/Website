@@ -13,9 +13,12 @@
     width: 90%;
     margin: 0 auto;
 }
+body{
+    background: #273036;
+}
 /* navegacion */
 nav{
-    background: var(--negro);
+    background:#273036;
 }
 nav .container{
     display: flex;
@@ -134,7 +137,7 @@ button:hover{
 }
 /* section contacto */
 .contacto{
-    background: var(--azul_claro);
+    /* background: var(--azul_claro); */
 }
 .contacto .container{
     height: 30vh;
